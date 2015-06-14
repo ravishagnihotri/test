@@ -19,7 +19,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+-(IBAction)Action:(id)sender
+{
+    SecondViewController *sec =[[SecondViewController alloc]init];
+    sec.lblSecond.text =
+     @"ravish second";
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

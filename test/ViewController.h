@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SecondViewController.h"
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *lblFirst;
+}
+@property(nonatomic,strong) IBOutlet UILabel *lblFirst;
+-(IBAction)Action:(id)sender;
 
 @end
